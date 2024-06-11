@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from .models import Role
-from .serializers import RoleSerializer
+from todo_roles.models import Role
+from todo_roles.serializers import RoleSerializer
 
 class RoleViewSet(viewsets.ModelViewSet):
     queryset = Role.objects.all()
