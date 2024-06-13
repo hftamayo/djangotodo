@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2f841e-cc33-4395-80cf-22aed0ef6546" name="Changes" comment="completing role model file">
+    <list default="true" id="8c2f841e-cc33-4395-80cf-22aed0ef6546" name="Changes" comment="updating role's serializer init.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_roles/serializers/role_serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_roles/serializers/role_serializer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,7 @@
       <workItem from="1717709913782" duration="780000" />
       <workItem from="1717710944097" duration="386000" />
       <workItem from="1718140934558" duration="2542000" />
-      <workItem from="1718236443329" duration="712000" />
+      <workItem from="1718236443329" duration="2116000" />
     </task>
     <task id="LOCAL-00001" summary="using enviro vars for data layer connectiom">
       <option name="closed" value="true" />
@@ -197,7 +198,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718237153411</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updates on file related to the IDE">
+      <option name="closed" value="true" />
+      <created>1718237425339</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718237425339</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updating role's init.py">
+      <option name="closed" value="true" />
+      <created>1718238495724</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718238495725</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updating role's serializer init.py">
+      <option name="closed" value="true" />
+      <created>1718238555496</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718238555496</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +240,9 @@
     <MESSAGE value="updating roles urls" />
     <MESSAGE value="rearranging files into package to follow modular structure" />
     <MESSAGE value="completing role model file" />
-    <option name="LAST_COMMIT_MESSAGE" value="completing role model file" />
+    <MESSAGE value="updates on file related to the IDE" />
+    <MESSAGE value="updating role's init.py" />
+    <MESSAGE value="updating role's serializer init.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating role's serializer init.py" />
   </component>
 </project>
