@@ -5,4 +5,4 @@ from todo_roles.models import Role
 class RoleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Role
-        fields = ['id', 'name', 'description']
+        fields = ['id', 'description', 'status', 'created_at', 'updated_at', 'role_type']
