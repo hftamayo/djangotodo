@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2f841e-cc33-4395-80cf-22aed0ef6546" name="Changes" comment="creation of the needed apps">
-      <change afterPath="$PROJECT_DIR$/.idea/djangotodo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangotodo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangotodo/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangotodo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangotodo/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_authentication/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_roles/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_roles/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_tasks/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_users/migrations/__init__.py" afterDir="false" />
+    <list default="true" id="8c2f841e-cc33-4395-80cf-22aed0ef6546" name="Changes" comment="completing role model file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +29,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2gq9w3ug9OKMFEyxFARdvi0WmAd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,7 +40,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,6 +50,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todo_roles/models" />
+      <recent name="$PROJECT_DIR$/todo_roles/serializers" />
+      <recent name="$PROJECT_DIR$/todo_roles/views" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="djangotodo" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangotodo" />
@@ -110,7 +104,10 @@
       <workItem from="1716505820445" duration="2349000" />
       <workItem from="1717623574884" duration="712000" />
       <workItem from="1717624623089" duration="500000" />
-      <workItem from="1717709913782" duration="320000" />
+      <workItem from="1717709913782" duration="780000" />
+      <workItem from="1717710944097" duration="386000" />
+      <workItem from="1718140934558" duration="2542000" />
+      <workItem from="1718236443329" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="using enviro vars for data layer connectiom">
       <option name="closed" value="true" />
@@ -136,7 +133,71 @@
       <option name="project" value="LOCAL" />
       <updated>1716508153979</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="file systems sync">
+      <option name="closed" value="true" />
+      <created>1717710605949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717710605949</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updating exclusion list">
+      <option name="closed" value="true" />
+      <created>1717710618297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717710618297</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first set of files related to roles">
+      <option name="closed" value="true" />
+      <created>1717710637567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717710637567</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updating main project route files">
+      <option name="closed" value="true" />
+      <created>1717710656268</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717710656268</updated>
+    </task>
+    <task id="LOCAL-00008" summary="starting files of the apps roles, tasks and auth">
+      <option name="closed" value="true" />
+      <created>1717710688468</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717710688468</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updating roles urls">
+      <option name="closed" value="true" />
+      <created>1718141780500</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718141780500</updated>
+    </task>
+    <task id="LOCAL-00010" summary="rearranging files into package to follow modular structure">
+      <option name="closed" value="true" />
+      <created>1718142957645</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718142957646</updated>
+    </task>
+    <task id="LOCAL-00011" summary="completing role model file">
+      <option name="closed" value="true" />
+      <created>1718237153411</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718237153411</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +207,14 @@
     <MESSAGE value="using enviro vars for data layer connectiom" />
     <MESSAGE value="adding exclusion list" />
     <MESSAGE value="creation of the needed apps" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation of the needed apps" />
+    <MESSAGE value="file systems sync" />
+    <MESSAGE value="updating exclusion list" />
+    <MESSAGE value="first set of files related to roles" />
+    <MESSAGE value="updating main project route files" />
+    <MESSAGE value="starting files of the apps roles, tasks and auth" />
+    <MESSAGE value="updating roles urls" />
+    <MESSAGE value="rearranging files into package to follow modular structure" />
+    <MESSAGE value="completing role model file" />
+    <option name="LAST_COMMIT_MESSAGE" value="completing role model file" />
   </component>
 </project>
