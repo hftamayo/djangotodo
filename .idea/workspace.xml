@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2f841e-cc33-4395-80cf-22aed0ef6546" name="Changes" comment="updating role's serializer init.py">
+    <list default="true" id="8c2f841e-cc33-4395-80cf-22aed0ef6546" name="Changes" comment="adding tasks route">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_roles/serializers/role_serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_roles/serializers/role_serializer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hftamayo/sourcecode/django/myprojects/djangotodo/todo_tasks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,6 +52,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todo_tasks" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/todo_roles/models" />
       <recent name="$PROJECT_DIR$/todo_roles/serializers" />
@@ -87,8 +90,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
-        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -108,7 +111,14 @@
       <workItem from="1717709913782" duration="780000" />
       <workItem from="1717710944097" duration="386000" />
       <workItem from="1718140934558" duration="2542000" />
-      <workItem from="1718236443329" duration="2116000" />
+      <workItem from="1718236443329" duration="3115000" />
+      <workItem from="1719523761249" duration="852000" />
+      <workItem from="1719524653955" duration="242000" />
+      <workItem from="1719956294433" duration="61000" />
+      <workItem from="1719956717368" duration="862000" />
+      <workItem from="1720214540817" duration="1718000" />
+      <workItem from="1720558292897" duration="664000" />
+      <workItem from="1720558968450" duration="2034000" />
     </task>
     <task id="LOCAL-00001" summary="using enviro vars for data layer connectiom">
       <option name="closed" value="true" />
@@ -222,19 +232,160 @@
       <option name="project" value="LOCAL" />
       <updated>1718238555496</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updating metadata on role serializer">
+      <option name="closed" value="true" />
+      <created>1718238724232</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718238724232</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updating ide file">
+      <option name="closed" value="true" />
+      <created>1718238733640</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718238733640</updated>
+    </task>
+    <task id="LOCAL-00017" summary="updating init file from views">
+      <option name="closed" value="true" />
+      <created>1718238874703</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718238874703</updated>
+    </task>
+    <task id="LOCAL-00018" summary="packages for user entity">
+      <option name="closed" value="true" />
+      <created>1719524878874</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719524878874</updated>
+    </task>
+    <task id="LOCAL-00019" summary="user model">
+      <option name="closed" value="true" />
+      <created>1719524890469</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719524890469</updated>
+    </task>
+    <task id="LOCAL-00020" summary="adding user serializer">
+      <option name="closed" value="true" />
+      <created>1719957020094</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719957020094</updated>
+    </task>
+    <task id="LOCAL-00021" summary="adding user model init">
+      <option name="closed" value="true" />
+      <created>1719957465802</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719957465802</updated>
+    </task>
+    <task id="LOCAL-00022" summary="adding user serializer init">
+      <option name="closed" value="true" />
+      <created>1719957563786</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719957563786</updated>
+    </task>
+    <task id="LOCAL-00023" summary="adding user view">
+      <option name="closed" value="true" />
+      <created>1719957574525</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719957574525</updated>
+    </task>
+    <task id="LOCAL-00024" summary="registering user view">
+      <option name="closed" value="true" />
+      <created>1720215400921</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1720215400921</updated>
+    </task>
+    <task id="LOCAL-00025" summary="updating project main url">
+      <option name="closed" value="true" />
+      <created>1720215506760</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1720215506760</updated>
+    </task>
+    <task id="LOCAL-00026" summary="updating paths on users urls and views">
+      <option name="closed" value="true" />
+      <created>1720215739923</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720215739923</updated>
+    </task>
+    <task id="LOCAL-00027" summary="removing unneeded files from tasks">
+      <option name="closed" value="true" />
+      <created>1720215915058</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1720215915058</updated>
+    </task>
+    <task id="LOCAL-00028" summary="defining task model files">
+      <option name="closed" value="true" />
+      <created>1720560078178</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1720560078178</updated>
+    </task>
+    <task id="LOCAL-00029" summary="defining task serializer files">
+      <option name="closed" value="true" />
+      <created>1720560443149</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1720560443149</updated>
+    </task>
+    <task id="LOCAL-00030" summary="defining task view files">
+      <option name="closed" value="true" />
+      <created>1720560536182</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1720560536182</updated>
+    </task>
+    <task id="LOCAL-00031" summary="adding tasks route">
+      <option name="closed" value="true" />
+      <created>1720560802419</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1720560802419</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="using enviro vars for data layer connectiom" />
-    <MESSAGE value="adding exclusion list" />
-    <MESSAGE value="creation of the needed apps" />
-    <MESSAGE value="file systems sync" />
-    <MESSAGE value="updating exclusion list" />
-    <MESSAGE value="first set of files related to roles" />
     <MESSAGE value="updating main project route files" />
     <MESSAGE value="starting files of the apps roles, tasks and auth" />
     <MESSAGE value="updating roles urls" />
@@ -243,6 +394,23 @@
     <MESSAGE value="updates on file related to the IDE" />
     <MESSAGE value="updating role's init.py" />
     <MESSAGE value="updating role's serializer init.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating role's serializer init.py" />
+    <MESSAGE value="updating metadata on role serializer" />
+    <MESSAGE value="updating ide file" />
+    <MESSAGE value="updating init file from views" />
+    <MESSAGE value="packages for user entity" />
+    <MESSAGE value="user model" />
+    <MESSAGE value="adding user serializer" />
+    <MESSAGE value="adding user model init" />
+    <MESSAGE value="adding user serializer init" />
+    <MESSAGE value="adding user view" />
+    <MESSAGE value="registering user view" />
+    <MESSAGE value="updating project main url" />
+    <MESSAGE value="updating paths on users urls and views" />
+    <MESSAGE value="removing unneeded files from tasks" />
+    <MESSAGE value="defining task model files" />
+    <MESSAGE value="defining task serializer files" />
+    <MESSAGE value="defining task view files" />
+    <MESSAGE value="adding tasks route" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding tasks route" />
   </component>
 </project>
