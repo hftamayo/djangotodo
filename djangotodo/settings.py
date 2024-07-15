@@ -88,6 +88,7 @@ DATABASES = {
         'ENGINE': 'djongo.db.backends.mysql',
         'NAME': os.getenv('DATABASE_NAME_DEV'),
         'HOST': os.getenv('DATABASE_HOST'),
+        'PORT': os.getenv('DATABASE_PORT', default='3306'),
         'USER': os.getenv('DATABASE_USER'),
         'PASSWORD': os.getenv('DATABASE_PASSWORD'),
     }
